@@ -1,42 +1,33 @@
-# surfs_up
+#surfs_up
+
+##Challenge Overview  
+in this project we are we gather data on beautiful Oahu weather on July and December to open a surf and shake shop. The goals for this challenge are to:
+- Determine key statistical data about the month of July.
+- Determine key statistical data about the month of December.
+- Compare your findings between the month of July and December.
+- Make 2 or 3 recommendations for further analysis.
+- Share your findings in the Jupyter Notebook.
+
+##Modual Objectives: 
+In this module we work with SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. Use SQLAlchemy to connect to and query a SQLite database. We Used Flask tool on app.py file to get summary precipitation to display our results in a webpage.Also using Matplotlib, Datetime to graph.
+
+##Resources Data Source: 
+Software: SQLite, Flask, Python, From Jupyter notebook used NumPy, Pandas, Matplotlib, Datetime and SQLAlchemy.
+The dataset we explored on weather data 2010-2017.
+There are rows contain NaN and  also more data for month of Jun and July than December.
+Observation from Analysis:
+Recommendation:
+
+##Observation from Analysis:
+- The data count for the month of July is more than Dec, so we  should look closely  to the station data.
+- The mean for daily precipitation is about 0.21inches in December and about 016 inches in July. So in general on December we get more rain than July.
+- The standard deviation is 0.54 inches in December and 0.62 inches.
+- As we look at the bar chart for precipitation on months of June, July and December we noticed that the December is much heavier in rain so it might have some difficulty for the surf shop on that month.
+
+##Recommendation:
+- The analysis only compare the July and Dec months in 7 years toghther. However it would be better if the comparison between each year July and Dec and compare the data annually together to make sure finding the trend.
+- Also only 2 months analysis wouldn’t help much to narrowed down for some suggestion like coupons or sale on rainy days to run business. If we get monthly data, we find more idea which months the discount could help the business to sell more.
+- We should look at the skewness of the data and look into the outliers  for both months.
 
 
-Challenge Overview
-Determine key statistical data about the month of July.
-Determine key statistical data about the month of December.
-Compare your findings between the month of July and December.
-Make 2 or 3 recommendations for further analysis.
-Share your findings in the Jupyter Notebook.
-
-
-Project Overview
-In this module, we spent time with new tools such as SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. We, also, wrote and executed Python code in a Jupyter notebook and created graphs using Python.
-
-
-Resources
-Data Source: climate_analysis.ipynb, hawaii.sqlite
-Software: SQLite, Flask, Python, Jupyter notebook
-Dependencies: SQLAlchemy, NumPy, Pandas, Matplotlib, Datetime
-
-Objectives
-Explain the structures, interactions, and types of data of a provided dataset.
-Differentiate between SQLite and PostgreSQL databases.
-Use SQLAlchemy to connect to and query a SQLite database.
-Use statistics like minimum, maximum, and average to analyze data.
-Design a Flask application using data.
-Summary
-Precipitation and station analysis climate_analysis.ipynb
-Using Flask, we displayed our results in a webpage app.py
-app
-
-
-
-Limitations
-SQLite Advantages
-While there are a few specific use cases for SQLite, we focused on how it can be beneficial to us and where we might get the most value from it. The main advantages are:
-
-It’s local. One of the core advantages of SQLite is that it allows you to create databases locally on your computer to support testing and easy prototyping. This is beneficial, because if you want to test something out and you need a database, it’s not always the most convenient to set up a SQL database server just to try something out.
-There’s an app for that. Another advantage of SQLite databases are that they can be used on a mobile phone app. Most mobile phone games will use an SQLite database to store certain information about you or your players statistics. While we won’t be creating a mobile app in this module, it’s still helpful to understand the full context. SQLite Disadvantages
-SQLite also has a couple of disadvantages, however. They are:
-It’s local. If you’ve used a MYSQL database before, you might have noticed that you can have multiple users access the database. With SQLite, there are no users. SQL is local: stored on one computer or phone. So, only that computer or phone will have access.
-There are fewer security features: one other disadvantage to be aware of is that SQLite doesn’t have as many security features as a traditional SQL database.
+![DistrictSummary](https://github.com/hbostanchi/School_District_Analysis/blob/master/District_Summary.png)

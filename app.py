@@ -92,7 +92,3 @@ def stats(start, end=None):
                 temps = list(np.ravel(results))
                 return jsonify(temps)
 
-@app.route("/api/v1.0/api/v1.0/temp/2017-06-01/2017-06-30")
-
-#if __name__ == '__main__':
-        #app.run():
