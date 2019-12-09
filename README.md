@@ -1,6 +1,6 @@
 # surfs_up
 
-##Challenge Overview  
+## Challenge Overview  
 in this project we are we gather data on beautiful Oahu weather on July and December to open a surf and shake shop. The goals for this challenge are to:
 - Determine key statistical data about the month of July.
 - Determine key statistical data about the month of December.
