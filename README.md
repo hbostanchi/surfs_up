@@ -1,12 +1,16 @@
 # surfs_up
-
-## Project Overview
-In this module, we spent time with new tools such as SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. We, also, wrote and executed Python code in a Jupyter notebook and created graphs using Python.
+## Modual Objectives: 
+In this module we work with SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. Use SQLAlchemy to connect to and query a SQLite database. We Used Flask tool on app.py file to get summary precipitation to display our results in a webpage.Also using Matplotlib, Datetime to graph.
+![flask](https://github.com/hbostanchi/surfs_up/blob/master/pic/flask.png)
 
 ## Resources
-Data Source: climate_analysis.ipynb, hawaii.sqlite
-Software: SQLite, Flask, Python, Jupyter notebook
-Dependencies: SQLAlchemy, NumPy, Pandas, Matplotlib, Datetime
+- Data Source: [climate_analysis.ipynb](https://github.com/hbostanchi/surfs_up/blob/master/climate_analysis.challenge.ipynb), [hawaii.sqlite](https://github.com/hbostanchi/surfs_up/blob/master/hawaii.sqlite)
+- Software: SQLite, Flask, Python, Jupyter notebook
+- Dependencies: SQLAlchemy, NumPy, Pandas, Matplotlib, Datetime
+The dataset we explored on weather data 2010-2017.
+There are rows contain NaN and  also more data for month of Jun and July than December.
+
+
 ## Objectives
 Explain the structures, interactions, and types of data of a provided dataset.
 Differentiate between SQLite and PostgreSQL databases.
@@ -22,14 +26,6 @@ in this project we are we gather data on beautiful Oahu weather on July and Dece
 - Make 2 or 3 recommendations for further analysis.
 - Share your findings in the Jupyter Notebook.
 
-## Modual Objectives: 
-In this module we work with SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. Use SQLAlchemy to connect to and query a SQLite database. We Used Flask tool on app.py file to get summary precipitation to display our results in a webpage.Also using Matplotlib, Datetime to graph.
-![flask](https://github.com/hbostanchi/surfs_up/blob/master/pic/flask.png)
-
-## Resources Data Source: 
-Software: SQLite, Flask, Python, From Jupyter notebook used NumPy, Pandas, Matplotlib, Datetime and SQLAlchemy.
-The dataset we explored on weather data 2010-2017.
-There are rows contain NaN and  also more data for month of Jun and July than December.
 
 
 ## Observation from Analysis:
