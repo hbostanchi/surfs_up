@@ -1,5 +1,19 @@
 # surfs_up
 
+## Project Overview
+In this module, we spent time with new tools such as SQLite, SQLAlchemy, and Flask to build on our knowledge of SQL database structures and querying methods. We, also, wrote and executed Python code in a Jupyter notebook and created graphs using Python.
+
+## Resources
+Data Source: climate_analysis.ipynb, hawaii.sqlite
+Software: SQLite, Flask, Python, Jupyter notebook
+Dependencies: SQLAlchemy, NumPy, Pandas, Matplotlib, Datetime
+## Objectives
+Explain the structures, interactions, and types of data of a provided dataset.
+Differentiate between SQLite and PostgreSQL databases.
+Use SQLAlchemy to connect to and query a SQLite database.
+Use statistics like minimum, maximum, and average to analyze data.
+Design a Flask application using data.
+
 ## Challenge Overview  
 in this project we are we gather data on beautiful Oahu weather on July and December to open a surf and shake shop. The goals for this challenge are to:
 - Determine key statistical data about the month of July.
